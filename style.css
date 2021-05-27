@@ -1,0 +1,142 @@
+*,
+::after,
+::before,
+h3, h4 {
+    margin: 0;
+    padding: 0;
+    color: hsl(209, 34%, 30%);
+}
+
+
+body {
+    background-color: hsl(210, 36%, 96%);
+}
+
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.container-brand {
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+.container-brand a {
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+.container-nav li {
+    display: inline-block;
+    padding-top: 0.5rem;
+}
+
+.container-nav a{
+    position: relative;
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+.container-nav .container-navactive{
+    position: relative;
+    background: hsl(216, 7%, 86%);
+}
+
+.container-nav a::before{
+    content: "";
+    position: absolute;
+    background: hsl(209, 34%, 30%);
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s ease;
+}
+
+.container-nav a:hover:before{
+    width: 100%;
+}
+
+.container-socials li {
+    display: inline-block;
+    padding-top: 0.5rem;
+}
+
+.container-socials a {
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
+
+.container-socials a:hover{
+    color: #3acec2;
+}
+
+.frame{
+    background-color: #3acec2;
+    padding: 9% 15%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(31, 29, 29);
+    text-align: left;
+    width: 70%;
+
+}
+
+.frame img{
+    border-radius: 50%;
+    margin-left: 3em;
+}
+
+.frame span{
+    padding-left: 0em;
+}
+
+.text-title{
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+
+.footer{
+    background-color: hsl(210, 36%, 96%);
+    padding: 1.3em;
+    text-align: center;
+}
+
+.footer span{
+    color: hsl(209, 34%, 30%);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    text-decoration: none;
+}
