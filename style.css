@@ -87,9 +87,9 @@ body {
     color: #3acec2;
 }
 
-.frame{
-    background-color: #3acec2;
-    padding: 9% 15%;
+.home{
+    /* background-color: #3acec2; */
+    padding: 10% 15% 9.5%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -98,12 +98,12 @@ body {
     width: 70%;
 } 
 
-.frame img{
+.home img{
     border-radius: 50%;
     margin-left: 3em;
 }
 
-.frame span{
+.home span{
     padding-left: 0em;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .text-title{
-    color: hsl(209, 34%, 30%);
+    color: hsl(208, 24%, 11%);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -130,21 +130,42 @@ body {
     font-weight: lighter;
 }
 
+.text-body{
+    color: hsl(205, 36%, 27%);
+}
+
 .experience{
-    background-color: #3acec2;
-    padding: 3% 15% 0%;
-    text-align: center;
+    padding: 3.5% 15% 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    color: rgb(31, 29, 29);
     text-align: left;
-    width: 70%;
-
 } 
+
+.project{
+    /* padding: 5% 7% 7% ; */
+    padding: 3.5% 15% 6%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project .project-info{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-info img{
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}
+
 
 
 .footer{
-    background-color: hsl(210, 36%, 96%);
+    background-color: white;
     padding: 1.3em;
     text-align: center;
 }
