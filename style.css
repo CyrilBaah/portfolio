@@ -78,14 +78,6 @@ body {
     padding-top: 0.5rem;
 }
 
-/* .icons{
-    padding: 0.5rem 1rem;
-}
-
-.icons a {
-    color: red;
-} */
-
 .container-socials a {
     padding: 0.5rem 1rem;
     transition: all 0.3s linear;
@@ -104,7 +96,6 @@ body {
     color: rgb(31, 29, 29);
     text-align: left;
     width: 70%;
-
 } 
 
 .frame img{
@@ -116,16 +107,40 @@ body {
     padding-left: 0em;
 }
 
+.headline{
+    background-color: #3acec2;
+    padding: 1.0% 15%;
+    text-align: center;
+}
+
+.headline img{
+    margin-left: 3em;
+    width: 10em;
+    height: auto;
+}
+
 .text-title{
     color: hsl(209, 34%, 30%);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0rem;
     transition: all 0.3s linear;
     text-decoration: none;
     font-weight: lighter;
 }
+
+.experience{
+    background-color: #3acec2;
+    padding: 3% 15% 0%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(31, 29, 29);
+    text-align: left;
+    width: 70%;
+
+} 
 
 
 .footer{
