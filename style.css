@@ -83,12 +83,7 @@ body {
     transition: all 0.3s linear;
 }
 
-.container-socials a:hover{
-    color: #3acec2;
-}
-
 .home{
-    /* background-color: #3acec2; */
     padding: 10% 15% 9.5%;
     text-align: center;
     display: grid;
@@ -129,6 +124,14 @@ body {
     text-decoration: none;
     font-weight: lighter;
 }
+.text-title a{
+    text-decoration: none;
+}
+
+.text-title a:hover{
+    color: #3acec2;
+    transition: all 0.3s linear;
+}
 
 .text-body{
     color: hsl(205, 36%, 27%);
@@ -143,7 +146,7 @@ body {
 
 .project{
     /* padding: 5% 7% 7% ; */
-    padding: 3.5% 15% 6%;
+    padding: 7.5% 15% 6%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -160,6 +163,7 @@ body {
     width:  100px;
     height: 100px;
     object-fit: cover;
+    /* cursor: pointer; */
 }
 
 
