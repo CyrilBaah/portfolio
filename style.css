@@ -166,7 +166,14 @@ body {
     /* cursor: pointer; */
 }
 
+.video {
+    text-align: center;
+    padding: 2% 3% 6%
+}
 
+.video iframe{
+    padding: 2% ;
+}
 
 .footer{
     background-color: white;
