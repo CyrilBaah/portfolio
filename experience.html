@@ -20,13 +20,13 @@
                 <a href="index.html">Home</a>
             </li>
             <li>
-                <a href="experience.html"  class="container-navactive">Experience</a>
+                <a href="experience.html" class="container-navactive">Experience</a>
             </li>
             <li>
                 <a href="project.html">Projects</a>
             </li>
             <li>
-                <a href="video.html">Video</a>
+                <a href="./files/cyril_baah_cv.pdf" download="CyrilBaah.pdf">Download CV</a>
             </li>
         </ul>
         <ul class="container-socials">
@@ -58,9 +58,8 @@
         <div>
             <h4 class="text-title">National Service Personnel</h4>
             <p class="text-body"> As a national service personnel, I presented ICT lessons to all senior high school students
-                in a comprehensive manner and used visual/audio means to facilitate learning.The work of 
-                students where supervised and guided them in their research. Participated in departmental meetings and seminars aimed at sharing research outcomes and
-                building interdisciplinary collaboration within and outside the school
+                in a comprehensive manner and used visual/audio means to facilitate learning. Supervised and guided students 
+                in their research and actively participated in departmental meetings and seminars aimed at fostering interdisciplinary collaboration.
             </p>
         </div>
     </div>
@@ -75,16 +74,37 @@
         <div>
             <h4 class="text-title">Internship</h4>
             <p class="text-body"> 
-                Worked rapidly together without compromising quality to minimize downtimes and
-                communicated estimated timelines for IT repairs to those impacted.
-                Managed IT systems and resources to assure continued high-quality services.
+                Worked rapidly to minimize downtimes without compromising quality and communicated estimated timelines for IT repairs. 
+                Managed IT systems and resources to ensure continued high-quality services.
             </p>
         </div>
     </div>
 
-    <div class="footer">
-		<span>&copy; 2021 Created by Cyril Baah</span>
+    <div class="project">
+        <h3 class="text-title">Projects</h3>
+        <ul>
+            <li>
+                <h4>SRE Monitoring and Alerting System</h4>
+                <p>Developed a scalable monitoring and alerting system using Prometheus and Grafana to ensure high availability of services across a cloud environment. Implemented custom alerting rules and dashboards to track system health and performance metrics.</p>
+            </li>
+            <li>
+                <h4>CI/CD Pipeline Automation (DevOps)</h4>
+                <p>Designed and implemented a CI/CD pipeline using Jenkins and Docker for an automated deployment process. Leveraged Kubernetes for container orchestration and seamless deployment of microservices.</p>
+            </li>
+            <li>
+                <h4>Cloud Infrastructure Management</h4>
+                <p>Utilized Terraform to manage cloud infrastructure on AWS, including auto-scaling, load balancing, and serverless architecture for a highly scalable application environment.</p>
+            </li>
+        </ul>
     </div>
+
+    <div class="footer" style="text-align: center; padding: 20px 0; position: absolute; bottom: 0; width: 100%;">
+        <span>&copy; <span id="year"></span> Created by Cyril Baah</span>
+    </div>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 
 </html>
